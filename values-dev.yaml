@@ -3,7 +3,7 @@ environment: dev
 replicaCount: 3
 image:
   repository: eramirez2701/dev-code
-  tag: latest
+  tag: 84cad98
   pullPolicy: Always
 
 service:
