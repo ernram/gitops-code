@@ -3,15 +3,13 @@ environment: dev
 replicaCount: 1
 image:
   repository: eramirez2701/dev-code
-  tag: 84cad98
+  tag: 239d845
   pullPolicy: Always
-
 service:
   name: python-flask-svc
   type: ClusterIP
   port: 80
   targetPort: 5000
-
 resources:
   limits:
     cpu: 200m
