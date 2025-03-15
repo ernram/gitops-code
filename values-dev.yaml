@@ -3,7 +3,7 @@ environment: dev
 replicaCount: 1
 image:
   repository: eramirez2701/dev-code
-  tag: 88b8ba2
+  tag: 239d845
   pullPolicy: Always
 service:
   name: python-flask-svc
