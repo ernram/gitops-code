@@ -1,12 +1,12 @@
 name: python-flask
 environment: dev
-replicaCount: 1
+replicaCount: 3
 image:
   repository: eramirez2701/dev-code
   tag: 96aa843
   pullPolicy: Always
 service:
-  name: python-flask-svc
+  name: python-flask-batch16
   type: ClusterIP
   port: 80
   targetPort: 5000
