@@ -1,6 +1,6 @@
 name: python-flask
 environment: dev
-replicaCount: 3
+replicaCount: 1
 image:
   repository: eramirez2701/dev-code
   tag: 96aa843
